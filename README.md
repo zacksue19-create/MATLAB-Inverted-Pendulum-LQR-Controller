@@ -56,7 +56,7 @@ I weighted θ` and θ̇` more heavily than x and ẋ, since keeping the pendulum
 
 With a 30° initial offset, the controller brings the pendulum back to upright smoothly, with the cart settling more slowly than the pendulum angle - a direct consequence of the Q-weighting prioritizing θ over x.
 
-![theta and x settling over time](media/scopedata30deg.png)
+![theta and x settling over time](media/scopestable30.png)
 
 ### Actuator saturation — finding the real-world limit
 
